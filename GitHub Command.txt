@@ -1,0 +1,22 @@
+1. create a new repository on the command line:
+
+echo "# rrepoH" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:hassansafita97-lab/rrepoH.git
+git push -u origin main
+
+2. or push an existing repository from the command line:
+
+git remote add origin git@github.com:hassansafita97-lab/rrepoH.git
+git branch -M main
+git push -u origin main
+
+3. generate SSH Key in windows for GitHub connecting:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+4. to see the file that I have generate for the Key:
+ssh-add c:/Users/YOU/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519
