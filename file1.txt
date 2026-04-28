@@ -1,0 +1,1 @@
+Hello, Feature Git (new branch)
