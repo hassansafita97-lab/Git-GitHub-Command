@@ -59,7 +59,4 @@ $ git fetch <remote_name>                                                   (to 
 $ git push -u origin feature                                                     (create branch feature in remote and sync with it in remote the update I made in local)
 $ git branch -v                                                                           (
 $ git pull origin                                                                          (fetch and merge in one command)
-
 ....................................................................
-
-
