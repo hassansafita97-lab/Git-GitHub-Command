@@ -51,11 +51,11 @@ $ git branch -d  testing                                       (delete the testi
 ..................................................................
 
 $ git clone <remote_repo> <local_repo>                           (to clone the repo from one location to another location and rename it)
-$ git remote                                                     (show me all the remotes that I had)
+$ git remote                                                     (show me all the remotes that I have)
 $ git remote -v                                                  (show me all the remotes that I have with more information)
 $ git branch -r                                                  (show me the remote branch and where I am on any branch)
 $ git remote add <shortname> <URL>                               (to add another remote)
-$ git fetch <remote_name>                                                   (to get all the update, reference, objects from the remote but will not merging that)
+$ git fetch <remote_name>                                        (to get all the updates, references, objects from the remote but will not merge that)
 $ git push -u origin feature                                                     (create branch feature in remote and sync with it in remote the update I made in local)
 $ git branch -v                                                                           (
 $ git pull origin                                                                          (fetch and merge in one command)
