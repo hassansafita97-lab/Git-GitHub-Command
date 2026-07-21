@@ -1,6 +1,7 @@
 $ git config --global user.name "Hassan Ibrahim"
 $ git config --global user.email "hassansafita97@gmail.com"
 $ git config --list               (to see the configuration that I have made)
+$ git config --global --edit      (to add alias command)
 
 ..........................................................
 
